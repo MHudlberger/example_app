@@ -8,7 +8,7 @@ from datarobot.models.dataset import Dataset
 #df = pd.read_csv('customers_data.csv')
 
 # Retrieve a dataset from AI Catalog using its ID
-dataset_id = "66bb9a2dea25038602dbaa61"
+dataset_id = "66bb9a2dea25038602dbaa61" # change to your customer_data id!
 dataset = Dataset.get(dataset_id)
 
 # Load the dataset into an in-memory pandas dataframe
